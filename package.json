@@ -1,0 +1,32 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "1. npm i webpack -g  //全局安装webpack 2. npm i webpack-dev-server //在项目目录中安装本地webpack 建议 3. npm init //初始化项目 4. npm i webpack --save-dev //在当前目录下安装 webpack 5. touch index.html 6. touch main.js 7. touch webpack.config.js<br/>   webpack.config.js中添加",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^4.2.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "css-loader": "^0.23.1",
+    "postcss-loader": "^0.10.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorisgirl/demo-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorisgirl/demo-webpack/issues"
+  },
+  "homepage": "https://github.com/dorisgirl/demo-webpack#readme"
+}

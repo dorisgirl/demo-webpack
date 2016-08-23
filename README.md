@@ -18,9 +18,14 @@
   }
 ```
 
-8. 
+8. npm instal webpack-dev-server -g //全局安装webpack-dev-server来实现实时刷新<br/>
+   npm instal webpack-dev-server --sace-dev 在项目中安装webpack-dev-server来实现实时刷新，此时需要在package.json中配置
 
-
+   ```
+    "scripts": {
+	    "start": "webpack-dev-server --inline"
+	  }
+	```
 
 
 
