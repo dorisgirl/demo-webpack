@@ -26,7 +26,7 @@
 	    "start": "webpack-dev-server --inline"
 	  }
 	```
-
+9. npm run start  执行
 
 
 
