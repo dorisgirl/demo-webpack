@@ -1,4 +1,7 @@
+var precss       = require('precss');
 var autoprefixer = require('autoprefixer');
+var px2rem = require('postcss-px2rem');
+
 module.exports = {
   entry: './main.js',  //输入main.js
   output: {
@@ -14,9 +17,10 @@ module.exports = {
     ]
   },
   postcss: function() {
-    return
-      // [px2rem({remUnit: 75})],
-      [require('autoprefixer'), require('precss')];
-      // [ autoprefixer({ browsers: ['last 2 versions'] }) ]
+      return [
+        precss, 
+        autoprefixer({ browsers: ['last 10 versions'] }), 
+        px2rem({remUnit: 75})
+      ];
   }
 }

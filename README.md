@@ -1,12 +1,11 @@
 # demo-webpack
 1. npm i webpack -g  //全局安装webpack
-2. npm i webpack-dev-server //在项目目录中安装本地webpack 建议
+2. npm i webpack --save-dev //在当前目录下安装 webpack   建议
 3. npm init //初始化项目
-4. npm i webpack --save-dev //在当前目录下安装 webpack
-5. touch index.html
-6. touch main.js
-7. touch webpack.config.js<br/>
-  webpack.config.js中添加
+4. touch index.html
+5. touch main.js
+6. touch webpack.config.js<br/>
+    webpack.config.js中添加
 
   ```
   module.exports = {
@@ -17,16 +16,16 @@
       }
   }
 ```
-
-8. npm instal webpack-dev-server -g //全局安装webpack-dev-server来实现实时刷新<br/>
+7. npm instal webpack-dev-server -g //全局安装webpack-dev-server来实现实时刷新<br/>
    npm instal webpack-dev-server --sace-dev 在项目中安装webpack-dev-server来实现实时刷新，此时需要在package.json中配置
 
    ```
     "scripts": {
-	    "start": "webpack-dev-server --inline"
-	  }
-	```
-9. npm run start  执行
+      "start": "webpack-dev-server --inline"
+    }
+  ```
+
+8. npm run start  执行 
 
 
 

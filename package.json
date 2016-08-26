@@ -11,6 +11,8 @@
     "autoprefixer": "^6.4.0",
     "css-loader": "^0.23.1",
     "postcss-loader": "^0.10.1",
+    "postcss-px2rem": "^0.3.0",
+    "precss": "^1.4.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.14.1"
